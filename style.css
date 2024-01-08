@@ -12,6 +12,7 @@
   background-position: center;
   background-size: cover;
   position: relative;
+  border-radius: 10px;
 }
 .text-box {
   color: white;
@@ -69,6 +70,7 @@
   background-size: cover;
   position: relative;
   margin-top: 100px;
+  border-radius: 10px;
 }
 .middle-H2 {
   font-size: 64px;
@@ -108,4 +110,95 @@
   font-weight: 700;
 
   text-align: center;
+}
+.after-middle {
+  text-align: center;
+  height: 480px;
+  justify-content: center;
+  background-color: bisque;
+  padding-top: 300px;
+  border-radius: 10px;
+}
+.place,
+.Date,
+.Time {
+  color: #ff0000;
+}
+.after-middle h3 {
+  color: #070211;
+  margin-top: 5px;
+
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+}
+.again-join {
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  margin-top: 15px;
+  padding: 16px 32px 16px 32px;
+  border-radius: 8px;
+  gap: 10px;
+
+  font-size: 20px;
+  font-weight: 700;
+
+  text-align: center;
+}
+.primary-color1,
+.primary-color2 {
+  color: #ff0000;
+}
+
+.primary-color1 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.primary-color2 {
+  font-size: 48px;
+
+  font-weight: 700;
+}
+
+.Best-offer h5 {
+  color: #070211;
+
+  font-size: 20px;
+
+  font-weight: 400;
+}
+.Best-offer h2 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.optional-txt h5 {
+  olor: #070211;
+  font-size: 20px;
+  font-weight: 400;
+}
+.emage {
+  width: 254px;
+  height: 254px;
+}
+.emage2 {
+  width: 100px;
+  height: 100px;
+  margin-top: 15px;
+}
+
+.Optional {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 0px;
+  padding: 15px 40px;
+}
+.Best-offer {
+  width: 35%;
+}
+.optional-txt {
+  width: 35%;
+  padding-left: 40px;
 }
