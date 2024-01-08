@@ -182,6 +182,9 @@
 .emage {
   width: 254px;
   height: 254px;
+  border: 10px solid #f00;
+  border-radius: 160px;
+  padding: 20px;
 }
 .emage2 {
   width: 100px;
@@ -201,4 +204,65 @@
 .optional-txt {
   width: 35%;
   padding-left: 40px;
+}
+.funtion {
+  color: #070211;
+  font-size: 24px;
+  font-weight: 500;
+}
+.Holidays {
+  color: #070211;
+  font-size: 72px;
+  font-weight: 900;
+}
+.holiday {
+  color: #f00;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 900;
+}
+.funtion-description {
+  color: #070211;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+.holiday-function {
+  width: 1068px;
+  text-align: center;
+  margin: 40px 120px;
+}
+.pic-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.girl-pic {
+  width: 329px;
+  height: 333px;
+  margin-right: 70px;
+}
+.two-pic {
+  display: flex;
+}
+.popcorn {
+  width: 500px;
+  height: 400px;
+  margin-left: 100px;
+  margin-top: 70px;
+  margin-bottom: 0px;
+  position: absolute;
+}
+.off-tag {
+  width: 180px;
+  height: 180px;
+  margin: 65px -90px;
+  position: absolute;
+}
+.under-pic {
+  width: 100%;
+}
+.only-pic {
+  margin: 60px auto;
 }
