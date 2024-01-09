@@ -393,18 +393,26 @@
   border: none;
 }
 .footer {
-  height: 600px;
+  height: 500px;
   background: #070211;
 }
 .call-icon {
   float: left;
+  margin-right: 10px;
+  margin-top: 5px;
 }
 .web-icon {
   float: left;
+  margin-right: 10px;
+  margin-top: 5px;
 }
 
-.footer h4 {
-  color: white;
+.footer h5 {
+  color: #fff;
+
+  font-size: 24px;
+  padding-left: 4px;
+  font-weight: 500;
 }
 .foot-flex {
   display: flex;
@@ -432,4 +440,11 @@
   justify-content: space-between;
   margin: 30px 100px;
   padding-right: 120px;
+}
+.facebook,
+.Linkedin,
+.Twitter,
+.Instagram {
+  width: 60px;
+  height: 60px;
 }
